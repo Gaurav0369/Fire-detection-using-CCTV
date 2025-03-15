@@ -1,0 +1,8 @@
+path: '/content/gdrive/MyDrive/ColabNotebooks/Vidur_v3/data' # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+
+names:
+  0: fire
+  1: smoke
+

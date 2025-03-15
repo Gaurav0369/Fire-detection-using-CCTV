@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Processing and Detection</title>
+</head>
+<body>
+    <h1>Video Processing and Detection</h1>
+    <img src="/video_feed" alt="Video Feed">
+    <p>Fire Consistency: <span id="fire-consistency"></span></p>
+    <p>Smoke Consistency: <span id="smoke-consistency"></span></p>
+
+    <script>
+        setInterval(function() {
+            fetch('/fire_consistency')
+                .then(response => response.json())
+                .then(data => document.getElementById('fire-consistency').textContent = data.consistent);
+
+            fetch('/smoke_consistency')
+                .then(response => response.json())
+                .then(data => document.getElementById('smoke-consistency').textContent = data.consistent);
+        }, 1000);
+    </script>
+</body>
+</html>
