@@ -5,3 +5,6 @@ conda create --name vidur python=3.9
 conda activate vidur
 
 pip install -r requirements.txt
+
+
+[![Watch the demo video]([URL_TO_THUMBNAIL_IMAGE](https://x.com/Gaurav_0369/status/1990047034456600924)]([https://x.com/Gaurav_0369/status/1990047034456600924]
