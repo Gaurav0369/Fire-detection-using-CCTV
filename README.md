@@ -6,6 +6,6 @@ conda activate vidur
 
 pip install -r requirements.txt
 
-Clck below to see the demo video....
+Clck the preview image to see the demo video....
 [![Watch the video](ss.png)]([https://twitter.com/username/status/video_id](https://x.com/Gaurav_0369/status/1990047034456600924))
 
