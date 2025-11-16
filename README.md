@@ -7,4 +7,5 @@ conda activate vidur
 pip install -r requirements.txt
 
 
-[![Watch the demo video]([URL_TO_THUMBNAIL_IMAGE](https://x.com/Gaurav_0369/status/1990047034456600924)]([https://x.com/Gaurav_0369/status/1990047034456600924]
+[![Watch the video](ss.png)]([https://twitter.com/username/status/video_id](https://x.com/Gaurav_0369/status/1990047034456600924))
+
